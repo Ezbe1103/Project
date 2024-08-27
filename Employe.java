@@ -1,8 +1,9 @@
 public class Employe {
 private String name;
-
-public Employe(String name)
+private int id;
+public Employe(String name, int id)
 {
     this.name = name;
+    this.id = id;
 }
 }
